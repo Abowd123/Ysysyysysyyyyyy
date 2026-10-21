@@ -1,0 +1,5079 @@
+{
+ "version": 1,
+ "worlds": [
+  {
+   "id": "animals",
+   "emoji": "🦁",
+   "title": {
+    "ar": "عالم الحيوانات",
+    "en": "Animals"
+   },
+   "colors": [
+    "#FFD27A",
+    "#FF9F43"
+   ],
+   "stars": 0,
+   "music": "music_meadow"
+  },
+  {
+   "id": "vehicles",
+   "emoji": "🚗",
+   "title": {
+    "ar": "عالم المركبات",
+    "en": "Vehicles"
+   },
+   "colors": [
+    "#8FD3FF",
+    "#4E8DF5"
+   ],
+   "stars": 0,
+   "music": "music_meadow"
+  },
+  {
+   "id": "fantasy",
+   "emoji": "🏰",
+   "title": {
+    "ar": "عالم الخيال",
+    "en": "Fantasy"
+   },
+   "colors": [
+    "#D7B8FF",
+    "#9B6BFF"
+   ],
+   "stars": 0,
+   "music": "music_dream"
+  },
+  {
+   "id": "sea",
+   "emoji": "🌊",
+   "title": {
+    "ar": "عالم البحار",
+    "en": "Under the Sea"
+   },
+   "colors": [
+    "#8EE8F0",
+    "#2FA6D9"
+   ],
+   "stars": 3,
+   "music": "music_dream"
+  },
+  {
+   "id": "space",
+   "emoji": "🚀",
+   "title": {
+    "ar": "عالم الفضاء",
+    "en": "Space"
+   },
+   "colors": [
+    "#6C7BE8",
+    "#2B2D6E"
+   ],
+   "stars": 6,
+   "music": "music_dream"
+  },
+  {
+   "id": "nature",
+   "emoji": "🌸",
+   "title": {
+    "ar": "عالم الطبيعة",
+    "en": "Nature"
+   },
+   "colors": [
+    "#B8F0A8",
+    "#5CC46A"
+   ],
+   "stars": 9,
+   "music": "music_meadow"
+  },
+  {
+   "id": "home",
+   "emoji": "🏠",
+   "title": {
+    "ar": "عالمي الصغير",
+    "en": "My Little World"
+   },
+   "colors": [
+    "#FFC4D6",
+    "#FF7FA5"
+   ],
+   "stars": 12,
+   "music": "music_meadow"
+  }
+ ],
+ "drawings": [
+  {
+   "id": "lion_01",
+   "world": "animals",
+   "title": {
+    "ar": "الأسد الصغير",
+    "en": "Little Lion"
+   },
+   "svg": "assets/drawings/lion_01.svg",
+   "bg": "#CFEFFF",
+   "sound": "roar",
+   "difficulty": 1,
+   "palette": [
+    "#FFD23F",
+    "#FFFFFF",
+    "#7BC86C",
+    "#F2B544",
+    "#B8672E",
+    "#F7C548",
+    "#FDE8A9",
+    "#D9822B",
+    "#F59AA8",
+    "#FDF1D2",
+    "#7A3E1D"
+   ],
+   "regions": [
+    {
+     "id": "sun",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      150,
+      150
+     ],
+     "area": 16279
+    },
+    {
+     "id": "cloud",
+     "number": 2,
+     "target": "#FFFFFF",
+     "center": [
+      820,
+      159
+     ],
+     "area": 19360
+    },
+    {
+     "id": "ground",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      221,
+      924
+     ],
+     "area": 128327
+    },
+    {
+     "id": "tail",
+     "number": 4,
+     "target": "#F2B544",
+     "center": [
+      741,
+      779
+     ],
+     "area": 9048
+    },
+    {
+     "id": "tail_tip",
+     "number": 5,
+     "target": "#B8672E",
+     "center": [
+      806,
+      553
+     ],
+     "area": 6588
+    },
+    {
+     "id": "foot_l",
+     "number": 4,
+     "target": "#F2B544",
+     "center": [
+      307,
+      853
+     ],
+     "area": 6947
+    },
+    {
+     "id": "foot_r",
+     "number": 4,
+     "target": "#F2B544",
+     "center": [
+      693,
+      853
+     ],
+     "area": 6947
+    },
+    {
+     "id": "body",
+     "number": 6,
+     "target": "#F7C548",
+     "center": [
+      641,
+      790
+     ],
+     "area": 41935
+    },
+    {
+     "id": "belly",
+     "number": 7,
+     "target": "#FDE8A9",
+     "center": [
+      501,
+      745
+     ],
+     "area": 30311
+    },
+    {
+     "id": "paw_l",
+     "number": 7,
+     "target": "#FDE8A9",
+     "center": [
+      435,
+      862
+     ],
+     "area": 7286
+    },
+    {
+     "id": "paw_r",
+     "number": 7,
+     "target": "#FDE8A9",
+     "center": [
+      565,
+      862
+     ],
+     "area": 7286
+    },
+    {
+     "id": "mane",
+     "number": 8,
+     "target": "#D9822B",
+     "center": [
+      469,
+      199
+     ],
+     "area": 119993
+    },
+    {
+     "id": "ear_l",
+     "number": 6,
+     "target": "#F7C548",
+     "center": [
+      351,
+      226
+     ],
+     "area": 6422
+    },
+    {
+     "id": "inner_ear_l",
+     "number": 9,
+     "target": "#F59AA8",
+     "center": [
+      372,
+      268
+     ],
+     "area": 2826
+    },
+    {
+     "id": "ear_r",
+     "number": 6,
+     "target": "#F7C548",
+     "center": [
+      649,
+      226
+     ],
+     "area": 6422
+    },
+    {
+     "id": "inner_ear_r",
+     "number": 9,
+     "target": "#F59AA8",
+     "center": [
+      628,
+      268
+     ],
+     "area": 2826
+    },
+    {
+     "id": "face",
+     "number": 6,
+     "target": "#F7C548",
+     "center": [
+      499,
+      317
+     ],
+     "area": 56388
+    },
+    {
+     "id": "cheek_l",
+     "number": 9,
+     "target": "#F59AA8",
+     "center": [
+      388,
+      473
+     ],
+     "area": 2106
+    },
+    {
+     "id": "cheek_r",
+     "number": 9,
+     "target": "#F59AA8",
+     "center": [
+      612,
+      473
+     ],
+     "area": 2106
+    },
+    {
+     "id": "eye_l",
+     "number": 2,
+     "target": "#FFFFFF",
+     "center": [
+      438,
+      388
+     ],
+     "area": 4271
+    },
+    {
+     "id": "eye_r",
+     "number": 2,
+     "target": "#FFFFFF",
+     "center": [
+      562,
+      388
+     ],
+     "area": 4271
+    },
+    {
+     "id": "muzzle",
+     "number": 10,
+     "target": "#FDF1D2",
+     "center": [
+      445,
+      477
+     ],
+     "area": 11158
+    },
+    {
+     "id": "nose",
+     "number": 11,
+     "target": "#7A3E1D",
+     "center": [
+      499,
+      449
+     ],
+     "area": 3058
+    }
+   ],
+   "anim": {
+    "sun": {
+     "type": "spin",
+     "pivot": [
+      150,
+      150
+     ],
+     "amp": 1,
+     "speed": 0.15,
+     "phase": 0.0
+    },
+    "head": {
+     "type": "tilt",
+     "pivot": [
+      500,
+      560
+     ],
+     "amp": 5,
+     "speed": 0.7,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      500,
+      388
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "tail": {
+     "type": "swing",
+     "pivot": [
+      650,
+      790
+     ],
+     "amp": 12,
+     "speed": 1.3,
+     "phase": 0.0
+    },
+    "cloud": {
+     "type": "drift",
+     "pivot": null,
+     "amp": 18,
+     "speed": 0.3,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "cat_01",
+   "world": "animals",
+   "title": {
+    "ar": "القطة اللطيفة",
+    "en": "Sweet Kitty"
+   },
+   "svg": "assets/drawings/cat_01.svg",
+   "bg": "#FFE3EC",
+   "sound": "meow",
+   "difficulty": 1,
+   "palette": [
+    "#A66CFF",
+    "#FF8FB1",
+    "#9E9E9E",
+    "#BDBDBD",
+    "#FFFFFF",
+    "#F59AA8",
+    "#9BE15D",
+    "#F06292"
+   ],
+   "regions": [
+    {
+     "id": "rug",
+     "number": 1,
+     "target": "#A66CFF",
+     "center": [
+      279,
+      905
+     ],
+     "area": 62406
+    },
+    {
+     "id": "yarn",
+     "number": 2,
+     "target": "#FF8FB1",
+     "center": [
+      820,
+      830
+     ],
+     "area": 12071
+    },
+    {
+     "id": "tail",
+     "number": 3,
+     "target": "#9E9E9E",
+     "center": [
+      725,
+      798
+     ],
+     "area": 16537
+    },
+    {
+     "id": "body",
+     "number": 4,
+     "target": "#BDBDBD",
+     "center": [
+      419,
+      635
+     ],
+     "area": 55610
+    },
+    {
+     "id": "belly",
+     "number": 5,
+     "target": "#FFFFFF",
+     "center": [
+      500,
+      760
+     ],
+     "area": 30943
+    },
+    {
+     "id": "paw_l",
+     "number": 5,
+     "target": "#FFFFFF",
+     "center": [
+      430,
+      880
+     ],
+     "area": 7160
+    },
+    {
+     "id": "paw_r",
+     "number": 5,
+     "target": "#FFFFFF",
+     "center": [
+      570,
+      880
+     ],
+     "area": 7160
+    },
+    {
+     "id": "ear_l",
+     "number": 3,
+     "target": "#9E9E9E",
+     "center": [
+      314,
+      241
+     ],
+     "area": 4522
+    },
+    {
+     "id": "inner_ear_l",
+     "number": 6,
+     "target": "#F59AA8",
+     "center": [
+      335,
+      297
+     ],
+     "area": 2564
+    },
+    {
+     "id": "ear_r",
+     "number": 3,
+     "target": "#9E9E9E",
+     "center": [
+      686,
+      241
+     ],
+     "area": 4522
+    },
+    {
+     "id": "inner_ear_r",
+     "number": 6,
+     "target": "#F59AA8",
+     "center": [
+      665,
+      297
+     ],
+     "area": 2564
+    },
+    {
+     "id": "head",
+     "number": 4,
+     "target": "#BDBDBD",
+     "center": [
+      459,
+      537
+     ],
+     "area": 75786
+    },
+    {
+     "id": "patch",
+     "number": 3,
+     "target": "#9E9E9E",
+     "center": [
+      540,
+      338
+     ],
+     "area": 9631
+    },
+    {
+     "id": "eye_l",
+     "number": 7,
+     "target": "#9BE15D",
+     "center": [
+      430,
+      420
+     ],
+     "area": 5778
+    },
+    {
+     "id": "eye_r",
+     "number": 7,
+     "target": "#9BE15D",
+     "center": [
+      570,
+      420
+     ],
+     "area": 5778
+    },
+    {
+     "id": "cheek_l",
+     "number": 6,
+     "target": "#F59AA8",
+     "center": [
+      390,
+      495
+     ],
+     "area": 2462
+    },
+    {
+     "id": "cheek_r",
+     "number": 6,
+     "target": "#F59AA8",
+     "center": [
+      610,
+      495
+     ],
+     "area": 2462
+    },
+    {
+     "id": "nose",
+     "number": 8,
+     "target": "#F06292",
+     "center": [
+      499,
+      476
+     ],
+     "area": 1733
+    }
+   ],
+   "anim": {
+    "head": {
+     "type": "tilt",
+     "pivot": [
+      500,
+      590
+     ],
+     "amp": 7,
+     "speed": 0.6,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      500,
+      420
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "tail": {
+     "type": "swing",
+     "pivot": [
+      640,
+      820
+     ],
+     "amp": 16,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "yarn": {
+     "type": "roll",
+     "pivot": [
+      820,
+      830
+     ],
+     "amp": 8,
+     "speed": 0.8,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "bird_01",
+   "world": "animals",
+   "title": {
+    "ar": "العصفور المغرّد",
+    "en": "Singing Bird"
+   },
+   "svg": "assets/drawings/bird_01.svg",
+   "bg": "#D8F6FF",
+   "sound": "chirp",
+   "difficulty": 1,
+   "palette": [
+    "#FFFFFF",
+    "#8D6E63",
+    "#7BC86C",
+    "#43A047",
+    "#1E88E5",
+    "#4FC3F7",
+    "#FFF3B0",
+    "#FF7043",
+    "#FF9F1C",
+    "#F59AA8"
+   ],
+   "regions": [
+    {
+     "id": "cloud",
+     "number": 1,
+     "target": "#FFFFFF",
+     "center": [
+      200,
+      165
+     ],
+     "area": 17560
+    },
+    {
+     "id": "branch",
+     "number": 2,
+     "target": "#8D6E63",
+     "center": [
+      802,
+      710
+     ],
+     "area": 52341
+    },
+    {
+     "id": "leaf_1",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      150,
+      690
+     ],
+     "area": 7034
+    },
+    {
+     "id": "leaf_2",
+     "number": 4,
+     "target": "#43A047",
+     "center": [
+      860,
+      640
+     ],
+     "area": 7034
+    },
+    {
+     "id": "leaf_3",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      780,
+      790
+     ],
+     "area": 5276
+    },
+    {
+     "id": "tail",
+     "number": 5,
+     "target": "#1E88E5",
+     "center": [
+      213,
+      554
+     ],
+     "area": 10554
+    },
+    {
+     "id": "body",
+     "number": 6,
+     "target": "#4FC3F7",
+     "center": [
+      449,
+      424
+     ],
+     "area": 63716
+    },
+    {
+     "id": "belly",
+     "number": 7,
+     "target": "#FFF3B0",
+     "center": [
+      571,
+      611
+     ],
+     "area": 30906
+    },
+    {
+     "id": "wing",
+     "number": 5,
+     "target": "#1E88E5",
+     "center": [
+      456,
+      543
+     ],
+     "area": 16239
+    },
+    {
+     "id": "crest",
+     "number": 8,
+     "target": "#FF7043",
+     "center": [
+      578,
+      363
+     ],
+     "area": 6160
+    },
+    {
+     "id": "beak_top",
+     "number": 9,
+     "target": "#FF9F1C",
+     "center": [
+      680,
+      477
+     ],
+     "area": 2280
+    },
+    {
+     "id": "cheek",
+     "number": 10,
+     "target": "#F59AA8",
+     "center": [
+      600,
+      500
+     ],
+     "area": 2123
+    },
+    {
+     "id": "eye",
+     "number": 1,
+     "target": "#FFFFFF",
+     "center": [
+      600,
+      430
+     ],
+     "area": 4057
+    },
+    {
+     "id": "foot_l",
+     "number": 9,
+     "target": "#FF9F1C",
+     "center": [
+      445,
+      735
+     ],
+     "area": 1676
+    },
+    {
+     "id": "foot_r",
+     "number": 9,
+     "target": "#FF9F1C",
+     "center": [
+      525,
+      730
+     ],
+     "area": 1676
+    }
+   ],
+   "anim": {
+    "wing": {
+     "type": "flap",
+     "pivot": [
+      450,
+      500
+     ],
+     "amp": 14,
+     "speed": 2.2,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      600,
+      430
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "head": {
+     "type": "tilt",
+     "pivot": [
+      520,
+      520
+     ],
+     "amp": 6,
+     "speed": 1.2,
+     "phase": 0.0
+    },
+    "tail": {
+     "type": "swing",
+     "pivot": [
+      330,
+      560
+     ],
+     "amp": 10,
+     "speed": 1.6,
+     "phase": 0.0
+    },
+    "notes": {
+     "type": "float",
+     "pivot": null,
+     "amp": 14,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "cloud": {
+     "type": "drift",
+     "pivot": null,
+     "amp": 20,
+     "speed": 0.3,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "car_01",
+   "world": "vehicles",
+   "title": {
+    "ar": "السيارة السريعة",
+    "en": "Speedy Car"
+   },
+   "svg": "assets/drawings/car_01.svg",
+   "bg": "#E3F2FD",
+   "sound": "beep",
+   "difficulty": 1,
+   "palette": [
+    "#FFD23F",
+    "#78909C",
+    "#FFFFFF",
+    "#E53935",
+    "#B3E5FC",
+    "#FFF3B0",
+    "#FF9F1C",
+    "#9E9E9E",
+    "#37474F",
+    "#BDBDBD"
+   ],
+   "regions": [
+    {
+     "id": "sun",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      830,
+      150
+     ],
+     "area": 12863
+    },
+    {
+     "id": "road",
+     "number": 2,
+     "target": "#78909C",
+     "center": [
+      255,
+      938
+     ],
+     "area": 180097
+    },
+    {
+     "id": "stripe_60",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      135,
+      893
+     ],
+     "area": 3766
+    },
+    {
+     "id": "stripe_300",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      375,
+      893
+     ],
+     "area": 3766
+    },
+    {
+     "id": "stripe_540",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      615,
+      893
+     ],
+     "area": 3766
+    },
+    {
+     "id": "stripe_780",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      855,
+      893
+     ],
+     "area": 3766
+    },
+    {
+     "id": "body",
+     "number": 4,
+     "target": "#E53935",
+     "center": [
+      431,
+      599
+     ],
+     "area": 130400
+    },
+    {
+     "id": "window_l",
+     "number": 5,
+     "target": "#B3E5FC",
+     "center": [
+      398,
+      474
+     ],
+     "area": 12807
+    },
+    {
+     "id": "window_r",
+     "number": 5,
+     "target": "#B3E5FC",
+     "center": [
+      583,
+      474
+     ],
+     "area": 12305
+    },
+    {
+     "id": "door_handle",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      555,
+      571
+     ],
+     "area": 1445
+    },
+    {
+     "id": "light_f",
+     "number": 6,
+     "target": "#FFF3B0",
+     "center": [
+      840,
+      590
+     ],
+     "area": 3392
+    },
+    {
+     "id": "light_b",
+     "number": 7,
+     "target": "#FF9F1C",
+     "center": [
+      147,
+      590
+     ],
+     "area": 1847
+    },
+    {
+     "id": "bumper",
+     "number": 8,
+     "target": "#9E9E9E",
+     "center": [
+      500,
+      708
+     ],
+     "area": 23707
+    },
+    {
+     "id": "wheel_l",
+     "number": 9,
+     "target": "#37474F",
+     "center": [
+      368,
+      736
+     ],
+     "area": 20500
+    },
+    {
+     "id": "hub_l",
+     "number": 10,
+     "target": "#BDBDBD",
+     "center": [
+      300,
+      735
+     ],
+     "area": 6080
+    },
+    {
+     "id": "wheel_r",
+     "number": 9,
+     "target": "#37474F",
+     "center": [
+      632,
+      736
+     ],
+     "area": 20500
+    },
+    {
+     "id": "hub_r",
+     "number": 10,
+     "target": "#BDBDBD",
+     "center": [
+      700,
+      735
+     ],
+     "area": 6080
+    }
+   ],
+   "anim": {
+    "sun": {
+     "type": "spin",
+     "pivot": [
+      830,
+      150
+     ],
+     "amp": 1,
+     "speed": 0.15,
+     "phase": 0.0
+    },
+    "wheel_l": {
+     "type": "spin",
+     "pivot": [
+      300,
+      735
+     ],
+     "amp": 1,
+     "speed": 1.2,
+     "phase": 0.0
+    },
+    "wheel_r": {
+     "type": "spin",
+     "pivot": [
+      700,
+      735
+     ],
+     "amp": 1,
+     "speed": 1.2,
+     "phase": 0.0
+    },
+    "car": {
+     "type": "bounce",
+     "pivot": null,
+     "amp": 6,
+     "speed": 2.2,
+     "phase": 0.0
+    },
+    "speed": {
+     "type": "float",
+     "pivot": null,
+     "amp": 6,
+     "speed": 2.0,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "plane_01",
+   "world": "vehicles",
+   "title": {
+    "ar": "الطائرة المرحة",
+    "en": "Happy Plane"
+   },
+   "svg": "assets/drawings/plane_01.svg",
+   "bg": "#C9ECFF",
+   "sound": "whoosh",
+   "difficulty": 1,
+   "palette": [
+    "#FFFFFF",
+    "#FF7043",
+    "#1E88E5",
+    "#FFD23F",
+    "#E53935",
+    "#B3E5FC",
+    "#4FC3F7",
+    "#9E9E9E"
+   ],
+   "regions": [
+    {
+     "id": "cloud_a",
+     "number": 1,
+     "target": "#FFFFFF",
+     "center": [
+      189,
+      786
+     ],
+     "area": 25285
+    },
+    {
+     "id": "cloud_b",
+     "number": 1,
+     "target": "#FFFFFF",
+     "center": [
+      820,
+      835
+     ],
+     "area": 17560
+    },
+    {
+     "id": "cloud_c",
+     "number": 1,
+     "target": "#FFFFFF",
+     "center": [
+      790,
+      176
+     ],
+     "area": 11240
+    },
+    {
+     "id": "tail_fin",
+     "number": 2,
+     "target": "#FF7043",
+     "center": [
+      234,
+      407
+     ],
+     "area": 12240
+    },
+    {
+     "id": "wing_back",
+     "number": 3,
+     "target": "#1E88E5",
+     "center": [
+      533,
+      373
+     ],
+     "area": 12050
+    },
+    {
+     "id": "body",
+     "number": 4,
+     "target": "#FFD23F",
+     "center": [
+      598,
+      484
+     ],
+     "area": 85277
+    },
+    {
+     "id": "wing",
+     "number": 3,
+     "target": "#1E88E5",
+     "center": [
+      514,
+      643
+     ],
+     "area": 17939
+    },
+    {
+     "id": "stripe",
+     "number": 5,
+     "target": "#E53935",
+     "center": [
+      440,
+      563
+     ],
+     "area": 14857
+    },
+    {
+     "id": "window_0",
+     "number": 6,
+     "target": "#B3E5FC",
+     "center": [
+      330,
+      495
+     ],
+     "area": 2123
+    },
+    {
+     "id": "window_1",
+     "number": 6,
+     "target": "#B3E5FC",
+     "center": [
+      420,
+      495
+     ],
+     "area": 2123
+    },
+    {
+     "id": "window_2",
+     "number": 6,
+     "target": "#B3E5FC",
+     "center": [
+      510,
+      495
+     ],
+     "area": 2123
+    },
+    {
+     "id": "cockpit",
+     "number": 7,
+     "target": "#4FC3F7",
+     "center": [
+      745,
+      466
+     ],
+     "area": 5587
+    },
+    {
+     "id": "nose",
+     "number": 5,
+     "target": "#E53935",
+     "center": [
+      888,
+      515
+     ],
+     "area": 2691
+    },
+    {
+     "id": "propeller",
+     "number": 8,
+     "target": "#9E9E9E",
+     "center": [
+      905,
+      600
+     ],
+     "area": 6155
+    }
+   ],
+   "anim": {
+    "prop": {
+     "type": "flutter",
+     "pivot": [
+      905,
+      515
+     ],
+     "amp": 60,
+     "speed": 6.0,
+     "phase": 0.0
+    },
+    "plane": {
+     "type": "fly",
+     "pivot": null,
+     "amp": 14,
+     "speed": 0.9,
+     "phase": 0.0
+    },
+    "cloud": {
+     "type": "drift",
+     "pivot": null,
+     "amp": 30,
+     "speed": 0.4,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "train_01",
+   "world": "vehicles",
+   "title": {
+    "ar": "القطار الصغير",
+    "en": "Little Train"
+   },
+   "svg": "assets/drawings/train_01.svg",
+   "bg": "#FFF3E0",
+   "sound": "toot",
+   "difficulty": 1,
+   "palette": [
+    "#9BE15D",
+    "#8D6E63",
+    "#FFFFFF",
+    "#37474F",
+    "#E53935",
+    "#5E35B1",
+    "#B3E5FC",
+    "#1E88E5",
+    "#FFD23F",
+    "#FFF3B0",
+    "#FF9F1C"
+   ],
+   "regions": [
+    {
+     "id": "ground",
+     "number": 1,
+     "target": "#9BE15D",
+     "center": [
+      500,
+      948
+     ],
+     "area": 105893
+    },
+    {
+     "id": "rail",
+     "number": 2,
+     "target": "#8D6E63",
+     "center": [
+      867,
+      879
+     ],
+     "area": 25331
+    },
+    {
+     "id": "smoke_a",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      300,
+      206
+     ],
+     "area": 8606
+    },
+    {
+     "id": "smoke_b",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      180,
+      117
+     ],
+     "area": 5314
+    },
+    {
+     "id": "chimney",
+     "number": 4,
+     "target": "#37474F",
+     "center": [
+      321,
+      344
+     ],
+     "area": 10500
+    },
+    {
+     "id": "cabin",
+     "number": 5,
+     "target": "#E53935",
+     "center": [
+      795,
+      605
+     ],
+     "area": 84194
+    },
+    {
+     "id": "roof",
+     "number": 6,
+     "target": "#5E35B1",
+     "center": [
+      725,
+      295
+     ],
+     "area": 26526
+    },
+    {
+     "id": "window",
+     "number": 7,
+     "target": "#B3E5FC",
+     "center": [
+      725,
+      435
+     ],
+     "area": 30726
+    },
+    {
+     "id": "boiler",
+     "number": 8,
+     "target": "#1E88E5",
+     "center": [
+      485,
+      565
+     ],
+     "area": 83466
+    },
+    {
+     "id": "band",
+     "number": 9,
+     "target": "#FFD23F",
+     "center": [
+      355,
+      565
+     ],
+     "area": 13414
+    },
+    {
+     "id": "front",
+     "number": 9,
+     "target": "#FFD23F",
+     "center": [
+      159,
+      598
+     ],
+     "area": 16016
+    },
+    {
+     "id": "light",
+     "number": 10,
+     "target": "#FFF3B0",
+     "center": [
+      150,
+      520
+     ],
+     "area": 2826
+    },
+    {
+     "id": "wheel_0",
+     "number": 4,
+     "target": "#37474F",
+     "center": [
+      198,
+      801
+     ],
+     "area": 18094
+    },
+    {
+     "id": "hub_0",
+     "number": 11,
+     "target": "#FF9F1C",
+     "center": [
+      260,
+      800
+     ],
+     "area": 4595
+    },
+    {
+     "id": "wheel_1",
+     "number": 4,
+     "target": "#37474F",
+     "center": [
+      512,
+      801
+     ],
+     "area": 18094
+    },
+    {
+     "id": "hub_1",
+     "number": 11,
+     "target": "#FF9F1C",
+     "center": [
+      450,
+      800
+     ],
+     "area": 4595
+    },
+    {
+     "id": "wheel_2",
+     "number": 4,
+     "target": "#37474F",
+     "center": [
+      624,
+      781
+     ],
+     "area": 27611
+    },
+    {
+     "id": "hub_2",
+     "number": 11,
+     "target": "#FF9F1C",
+     "center": [
+      700,
+      780
+     ],
+     "area": 7011
+    }
+   ],
+   "anim": {
+    "wheel_0": {
+     "type": "spin",
+     "pivot": [
+      260,
+      800
+     ],
+     "amp": 1,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "wheel_1": {
+     "type": "spin",
+     "pivot": [
+      450,
+      800
+     ],
+     "amp": 1,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "wheel_2": {
+     "type": "spin",
+     "pivot": [
+      700,
+      780
+     ],
+     "amp": 1,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "train": {
+     "type": "bounce",
+     "pivot": null,
+     "amp": 5,
+     "speed": 2.4,
+     "phase": 0.0
+    },
+    "smoke": {
+     "type": "float",
+     "pivot": null,
+     "amp": 24,
+     "speed": 0.8,
+     "phase": 0.0
+    },
+    "rod": {
+     "type": "bounce",
+     "pivot": null,
+     "amp": 8,
+     "speed": 2.4,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "castle_01",
+   "world": "fantasy",
+   "title": {
+    "ar": "قلعة الأحلام",
+    "en": "Dream Castle"
+   },
+   "svg": "assets/drawings/castle_01.svg",
+   "bg": "#EADCFF",
+   "sound": "twinkle",
+   "difficulty": 1,
+   "palette": [
+    "#FFD23F",
+    "#FFF3B0",
+    "#9BE15D",
+    "#FFCDD2",
+    "#5E35B1",
+    "#FF7043",
+    "#F8BBD0",
+    "#A66CFF",
+    "#FF8FB1",
+    "#8D6E63"
+   ],
+   "regions": [
+    {
+     "id": "moon",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      772,
+      163
+     ],
+     "area": 5947
+    },
+    {
+     "id": "star_a",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      150,
+      140
+     ],
+     "area": 1955
+    },
+    {
+     "id": "star_b",
+     "number": 2,
+     "target": "#FFF3B0",
+     "center": [
+      300,
+      230
+     ],
+     "area": 1746
+    },
+    {
+     "id": "ground",
+     "number": 3,
+     "target": "#9BE15D",
+     "center": [
+      97,
+      936
+     ],
+     "area": 113936
+    },
+    {
+     "id": "tower_l",
+     "number": 4,
+     "target": "#FFCDD2",
+     "center": [
+      210,
+      707
+     ],
+     "area": 55730
+    },
+    {
+     "id": "roof_l",
+     "number": 5,
+     "target": "#5E35B1",
+     "center": [
+      209,
+      344
+     ],
+     "area": 15990
+    },
+    {
+     "id": "flag_l",
+     "number": 6,
+     "target": "#FF7043",
+     "center": [
+      226,
+      194
+     ],
+     "area": 1477
+    },
+    {
+     "id": "win_l",
+     "number": 2,
+     "target": "#FFF3B0",
+     "center": [
+      210,
+      505
+     ],
+     "area": 2984
+    },
+    {
+     "id": "tower_r",
+     "number": 4,
+     "target": "#FFCDD2",
+     "center": [
+      790,
+      707
+     ],
+     "area": 55730
+    },
+    {
+     "id": "roof_r",
+     "number": 5,
+     "target": "#5E35B1",
+     "center": [
+      791,
+      344
+     ],
+     "area": 15990
+    },
+    {
+     "id": "flag_r",
+     "number": 6,
+     "target": "#FF7043",
+     "center": [
+      806,
+      194
+     ],
+     "area": 1477
+    },
+    {
+     "id": "win_r",
+     "number": 2,
+     "target": "#FFF3B0",
+     "center": [
+      790,
+      505
+     ],
+     "area": 2984
+    },
+    {
+     "id": "keep",
+     "number": 7,
+     "target": "#F8BBD0",
+     "center": [
+      483,
+      580
+     ],
+     "area": 138997
+    },
+    {
+     "id": "merlon_0",
+     "number": 7,
+     "target": "#F8BBD0",
+     "center": [
+      300,
+      460
+     ],
+     "area": 3514
+    },
+    {
+     "id": "merlon_1",
+     "number": 7,
+     "target": "#F8BBD0",
+     "center": [
+      395,
+      458
+     ],
+     "area": 2989
+    },
+    {
+     "id": "merlon_3",
+     "number": 7,
+     "target": "#F8BBD0",
+     "center": [
+      605,
+      458
+     ],
+     "area": 2989
+    },
+    {
+     "id": "merlon_4",
+     "number": 7,
+     "target": "#F8BBD0",
+     "center": [
+      700,
+      460
+     ],
+     "area": 3514
+    },
+    {
+     "id": "tower_c",
+     "number": 4,
+     "target": "#FFCDD2",
+     "center": [
+      472,
+      438
+     ],
+     "area": 32808
+    },
+    {
+     "id": "roof_c",
+     "number": 8,
+     "target": "#A66CFF",
+     "center": [
+      499,
+      208
+     ],
+     "area": 19594
+    },
+    {
+     "id": "win_c",
+     "number": 9,
+     "target": "#FF8FB1",
+     "center": [
+      499,
+      362
+     ],
+     "area": 2306
+    },
+    {
+     "id": "door",
+     "number": 10,
+     "target": "#8D6E63",
+     "center": [
+      500,
+      781
+     ],
+     "area": 36447
+    },
+    {
+     "id": "win_kl",
+     "number": 2,
+     "target": "#FFF3B0",
+     "center": [
+      355,
+      605
+     ],
+     "area": 5277
+    },
+    {
+     "id": "win_kr",
+     "number": 2,
+     "target": "#FFF3B0",
+     "center": [
+      645,
+      605
+     ],
+     "area": 5277
+    }
+   ],
+   "anim": {
+    "flag_l": {
+     "type": "wave",
+     "pivot": [
+      210,
+      195
+     ],
+     "amp": 12,
+     "speed": 1.6,
+     "phase": 0.0
+    },
+    "flag_r": {
+     "type": "wave",
+     "pivot": [
+      790,
+      195
+     ],
+     "amp": 12,
+     "speed": 1.6,
+     "phase": 0.0
+    },
+    "stars": {
+     "type": "twinkle",
+     "pivot": null,
+     "amp": 0.15,
+     "speed": 1.4,
+     "phase": 0.0
+    },
+    "moon": {
+     "type": "float",
+     "pivot": null,
+     "amp": 8,
+     "speed": 0.5,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "dragon_01",
+   "world": "fantasy",
+   "title": {
+    "ar": "التنين الودود",
+    "en": "Friendly Dragon"
+   },
+   "svg": "assets/drawings/dragon_01.svg",
+   "bg": "#D9F7E8",
+   "sound": "roar",
+   "difficulty": 1,
+   "palette": [
+    "#9BE15D",
+    "#43A047",
+    "#FF7043",
+    "#A66CFF",
+    "#7BC86C",
+    "#FFF3B0",
+    "#FFD23F",
+    "#FFFFFF",
+    "#F59AA8",
+    "#ECEFF1"
+   ],
+   "regions": [
+    {
+     "id": "ground",
+     "number": 1,
+     "target": "#9BE15D",
+     "center": [
+      138,
+      935
+     ],
+     "area": 116333
+    },
+    {
+     "id": "tail",
+     "number": 2,
+     "target": "#43A047",
+     "center": [
+      868,
+      732
+     ],
+     "area": 18213
+    },
+    {
+     "id": "tail_tip",
+     "number": 3,
+     "target": "#FF7043",
+     "center": [
+      882,
+      624
+     ],
+     "area": 4681
+    },
+    {
+     "id": "wing_l",
+     "number": 4,
+     "target": "#A66CFF",
+     "center": [
+      249,
+      563
+     ],
+     "area": 19963
+    },
+    {
+     "id": "wing_r",
+     "number": 4,
+     "target": "#A66CFF",
+     "center": [
+      740,
+      561
+     ],
+     "area": 21477
+    },
+    {
+     "id": "body",
+     "number": 5,
+     "target": "#7BC86C",
+     "center": [
+      604,
+      635
+     ],
+     "area": 60214
+    },
+    {
+     "id": "belly",
+     "number": 6,
+     "target": "#FFF3B0",
+     "center": [
+      490,
+      730
+     ],
+     "area": 37291
+    },
+    {
+     "id": "foot_l",
+     "number": 2,
+     "target": "#43A047",
+     "center": [
+      380,
+      860
+     ],
+     "area": 9233
+    },
+    {
+     "id": "foot_r",
+     "number": 2,
+     "target": "#43A047",
+     "center": [
+      600,
+      860
+     ],
+     "area": 9233
+    },
+    {
+     "id": "horn_l",
+     "number": 7,
+     "target": "#FFD23F",
+     "center": [
+      380,
+      233
+     ],
+     "area": 2707
+    },
+    {
+     "id": "horn_r",
+     "number": 7,
+     "target": "#FFD23F",
+     "center": [
+      600,
+      233
+     ],
+     "area": 2152
+    },
+    {
+     "id": "head",
+     "number": 5,
+     "target": "#7BC86C",
+     "center": [
+      489,
+      291
+     ],
+     "area": 40511
+    },
+    {
+     "id": "spike",
+     "number": 3,
+     "target": "#FF7043",
+     "center": [
+      461,
+      228
+     ],
+     "area": 2736
+    },
+    {
+     "id": "snout",
+     "number": 1,
+     "target": "#9BE15D",
+     "center": [
+      490,
+      450
+     ],
+     "area": 23776
+    },
+    {
+     "id": "eye_l",
+     "number": 8,
+     "target": "#FFFFFF",
+     "center": [
+      425,
+      355
+     ],
+     "area": 5251
+    },
+    {
+     "id": "eye_r",
+     "number": 8,
+     "target": "#FFFFFF",
+     "center": [
+      555,
+      355
+     ],
+     "area": 5251
+    },
+    {
+     "id": "cheek_l",
+     "number": 9,
+     "target": "#F59AA8",
+     "center": [
+      355,
+      430
+     ],
+     "area": 2123
+    },
+    {
+     "id": "cheek_r",
+     "number": 9,
+     "target": "#F59AA8",
+     "center": [
+      625,
+      430
+     ],
+     "area": 2123
+    },
+    {
+     "id": "puff_a",
+     "number": 10,
+     "target": "#ECEFF1",
+     "center": [
+      760,
+      328
+     ],
+     "area": 3558
+    },
+    {
+     "id": "puff_b",
+     "number": 10,
+     "target": "#ECEFF1",
+     "center": [
+      860,
+      278
+     ],
+     "area": 2154
+    }
+   ],
+   "anim": {
+    "wing_l": {
+     "type": "flap",
+     "pivot": [
+      330,
+      600
+     ],
+     "amp": 12,
+     "speed": 1.5,
+     "phase": 0.0
+    },
+    "wing_r": {
+     "type": "flap",
+     "pivot": [
+      650,
+      600
+     ],
+     "amp": -12,
+     "speed": 1.5,
+     "phase": 0.0
+    },
+    "head": {
+     "type": "tilt",
+     "pivot": [
+      490,
+      520
+     ],
+     "amp": 5,
+     "speed": 0.8,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      490,
+      355
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "tail": {
+     "type": "swing",
+     "pivot": [
+      620,
+      800
+     ],
+     "amp": 10,
+     "speed": 1.1,
+     "phase": 0.0
+    },
+    "puff": {
+     "type": "float",
+     "pivot": null,
+     "amp": 20,
+     "speed": 0.9,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "unicorn_01",
+   "world": "fantasy",
+   "title": {
+    "ar": "المهر السحري",
+    "en": "Magic Unicorn"
+   },
+   "svg": "assets/drawings/unicorn_01.svg",
+   "bg": "#FFE8F7",
+   "sound": "twinkle",
+   "difficulty": 1,
+   "palette": [
+    "#E53935",
+    "#FFD23F",
+    "#4FC3F7",
+    "#FFFFFF",
+    "#A66CFF",
+    "#FF8FB1",
+    "#FFE0EC",
+    "#F59AA8"
+   ],
+   "regions": [
+    {
+     "id": "rainbow_r",
+     "number": 1,
+     "target": "#E53935",
+     "center": [
+      737,
+      623
+     ],
+     "area": 48843
+    },
+    {
+     "id": "rainbow_y",
+     "number": 2,
+     "target": "#FFD23F",
+     "center": [
+      753,
+      697
+     ],
+     "area": 39753
+    },
+    {
+     "id": "rainbow_b",
+     "number": 3,
+     "target": "#4FC3F7",
+     "center": [
+      802,
+      833
+     ],
+     "area": 32757
+    },
+    {
+     "id": "cloud_l",
+     "number": 4,
+     "target": "#FFFFFF",
+     "center": [
+      150,
+      930
+     ],
+     "area": 24580
+    },
+    {
+     "id": "cloud_r",
+     "number": 4,
+     "target": "#FFFFFF",
+     "center": [
+      850,
+      930
+     ],
+     "area": 24580
+    },
+    {
+     "id": "mane_back",
+     "number": 5,
+     "target": "#A66CFF",
+     "center": [
+      292,
+      448
+     ],
+     "area": 32319
+    },
+    {
+     "id": "neck",
+     "number": 4,
+     "target": "#FFFFFF",
+     "center": [
+      460,
+      570
+     ],
+     "area": 41478
+    },
+    {
+     "id": "ear",
+     "number": 4,
+     "target": "#FFFFFF",
+     "center": [
+      464,
+      224
+     ],
+     "area": 2947
+    },
+    {
+     "id": "head",
+     "number": 4,
+     "target": "#FFFFFF",
+     "center": [
+      447,
+      411
+     ],
+     "area": 37415
+    },
+    {
+     "id": "horn",
+     "number": 2,
+     "target": "#FFD23F",
+     "center": [
+      543,
+      229
+     ],
+     "area": 6684
+    },
+    {
+     "id": "mane_front",
+     "number": 6,
+     "target": "#FF8FB1",
+     "center": [
+      400,
+      280
+     ],
+     "area": 17318
+    },
+    {
+     "id": "snout",
+     "number": 7,
+     "target": "#FFE0EC",
+     "center": [
+      651,
+      440
+     ],
+     "area": 11981
+    },
+    {
+     "id": "eye",
+     "number": 4,
+     "target": "#FFFFFF",
+     "center": [
+      520,
+      360
+     ],
+     "area": 5251
+    },
+    {
+     "id": "cheek",
+     "number": 8,
+     "target": "#F59AA8",
+     "center": [
+      560,
+      440
+     ],
+     "area": 2123
+    }
+   ],
+   "anim": {
+    "head": {
+     "type": "nod",
+     "pivot": [
+      460,
+      520
+     ],
+     "amp": 6,
+     "speed": 0.9,
+     "phase": 0.0
+    },
+    "mane": {
+     "type": "swing",
+     "pivot": [
+      360,
+      400
+     ],
+     "amp": 5,
+     "speed": 1.1,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      520,
+      360
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "stars": {
+     "type": "twinkle",
+     "pivot": null,
+     "amp": 0.2,
+     "speed": 1.6,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "fish_01",
+   "world": "sea",
+   "title": {
+    "ar": "السمكة الملونة",
+    "en": "Rainbow Fish"
+   },
+   "svg": "assets/drawings/fish_01.svg",
+   "bg": "#B9EBFF",
+   "sound": "bubble",
+   "difficulty": 1,
+   "palette": [
+    "#FFE0A3",
+    "#43A047",
+    "#7BC86C",
+    "#FF8FB1",
+    "#FF7043",
+    "#FF9F1C",
+    "#FFD23F",
+    "#4FC3F7",
+    "#A66CFF",
+    "#FFFFFF",
+    "#F59AA8"
+   ],
+   "regions": [
+    {
+     "id": "sand",
+     "number": 1,
+     "target": "#FFE0A3",
+     "center": [
+      341,
+      936
+     ],
+     "area": 119113
+    },
+    {
+     "id": "weed_l",
+     "number": 2,
+     "target": "#43A047",
+     "center": [
+      122,
+      589
+     ],
+     "area": 18584
+    },
+    {
+     "id": "weed_r",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      889,
+      750
+     ],
+     "area": 15203
+    },
+    {
+     "id": "shell",
+     "number": 4,
+     "target": "#FF8FB1",
+     "center": [
+      821,
+      869
+     ],
+     "area": 4239
+    },
+    {
+     "id": "tail",
+     "number": 5,
+     "target": "#FF7043",
+     "center": [
+      210,
+      473
+     ],
+     "area": 15431
+    },
+    {
+     "id": "fin_top",
+     "number": 6,
+     "target": "#FF9F1C",
+     "center": [
+      513,
+      265
+     ],
+     "area": 8307
+    },
+    {
+     "id": "fin_bottom",
+     "number": 6,
+     "target": "#FF9F1C",
+     "center": [
+      500,
+      678
+     ],
+     "area": 2769
+    },
+    {
+     "id": "body",
+     "number": 7,
+     "target": "#FFD23F",
+     "center": [
+      645,
+      574
+     ],
+     "area": 97504
+    },
+    {
+     "id": "stripe_1",
+     "number": 8,
+     "target": "#4FC3F7",
+     "center": [
+      415,
+      489
+     ],
+     "area": 16674
+    },
+    {
+     "id": "stripe_2",
+     "number": 9,
+     "target": "#A66CFF",
+     "center": [
+      537,
+      430
+     ],
+     "area": 16580
+    },
+    {
+     "id": "fin_side",
+     "number": 5,
+     "target": "#FF7043",
+     "center": [
+      576,
+      511
+     ],
+     "area": 3673
+    },
+    {
+     "id": "eye",
+     "number": 10,
+     "target": "#FFFFFF",
+     "center": [
+      680,
+      430
+     ],
+     "area": 6645
+    },
+    {
+     "id": "cheek",
+     "number": 11,
+     "target": "#F59AA8",
+     "center": [
+      700,
+      520
+     ],
+     "area": 1809
+    },
+    {
+     "id": "bubble_a",
+     "number": 10,
+     "target": "#FFFFFF",
+     "center": [
+      830,
+      300
+     ],
+     "area": 3630
+    },
+    {
+     "id": "bubble_b",
+     "number": 10,
+     "target": "#FFFFFF",
+     "center": [
+      880,
+      200
+     ],
+     "area": 1520
+    },
+    {
+     "id": "bubble_c",
+     "number": 10,
+     "target": "#FFFFFF",
+     "center": [
+      820,
+      120
+     ],
+     "area": 2462
+    }
+   ],
+   "anim": {
+    "fish": {
+     "type": "swim",
+     "pivot": null,
+     "amp": 16,
+     "speed": 0.9,
+     "phase": 0.0
+    },
+    "tail": {
+     "type": "swing",
+     "pivot": [
+      300,
+      480
+     ],
+     "amp": 14,
+     "speed": 2.0,
+     "phase": 0.0
+    },
+    "fin": {
+     "type": "flap",
+     "pivot": [
+      520,
+      500
+     ],
+     "amp": 12,
+     "speed": 2.0,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      680,
+      430
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "weed": {
+     "type": "sway",
+     "pivot": null,
+     "amp": 4,
+     "speed": 0.7,
+     "phase": 0.0
+    },
+    "bubbles": {
+     "type": "rise",
+     "pivot": null,
+     "amp": 40,
+     "speed": 0.6,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "whale_01",
+   "world": "sea",
+   "title": {
+    "ar": "الحوت السعيد",
+    "en": "Happy Whale"
+   },
+   "svg": "assets/drawings/whale_01.svg",
+   "bg": "#C8F0FF",
+   "sound": "splash",
+   "difficulty": 1,
+   "palette": [
+    "#1E88E5",
+    "#B3E5FC",
+    "#5E35B1",
+    "#7E57C2",
+    "#FFFFFF",
+    "#F59AA8"
+   ],
+   "regions": [
+    {
+     "id": "sea",
+     "number": 1,
+     "target": "#1E88E5",
+     "center": [
+      183,
+      845
+     ],
+     "area": 290940
+    },
+    {
+     "id": "spout_l",
+     "number": 2,
+     "target": "#B3E5FC",
+     "center": [
+      433,
+      239
+     ],
+     "area": 7896
+    },
+    {
+     "id": "spout_r",
+     "number": 2,
+     "target": "#B3E5FC",
+     "center": [
+      528,
+      174
+     ],
+     "area": 8102
+    },
+    {
+     "id": "spout_drop",
+     "number": 2,
+     "target": "#B3E5FC",
+     "center": [
+      456,
+      142
+     ],
+     "area": 2306
+    },
+    {
+     "id": "tail",
+     "number": 3,
+     "target": "#5E35B1",
+     "center": [
+      876,
+      402
+     ],
+     "area": 18797
+    },
+    {
+     "id": "body",
+     "number": 3,
+     "target": "#5E35B1",
+     "center": [
+      495,
+      430
+     ],
+     "area": 169710
+    },
+    {
+     "id": "belly",
+     "number": 2,
+     "target": "#B3E5FC",
+     "center": [
+      373,
+      628
+     ],
+     "area": 58678
+    },
+    {
+     "id": "fin",
+     "number": 4,
+     "target": "#7E57C2",
+     "center": [
+      487,
+      665
+     ],
+     "area": 6383
+    },
+    {
+     "id": "eye",
+     "number": 5,
+     "target": "#FFFFFF",
+     "center": [
+      330,
+      470
+     ],
+     "area": 4057
+    },
+    {
+     "id": "cheek",
+     "number": 6,
+     "target": "#F59AA8",
+     "center": [
+      290,
+      540
+     ],
+     "area": 2826
+    }
+   ],
+   "anim": {
+    "whale": {
+     "type": "swim",
+     "pivot": null,
+     "amp": 12,
+     "speed": 0.6,
+     "phase": 0.0
+    },
+    "tail": {
+     "type": "swing",
+     "pivot": [
+      760,
+      520
+     ],
+     "amp": 10,
+     "speed": 1.4,
+     "phase": 0.0
+    },
+    "spout": {
+     "type": "pulse",
+     "pivot": [
+      455,
+      260
+     ],
+     "amp": 0.12,
+     "speed": 1.8,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      330,
+      470
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "fin": {
+     "type": "flap",
+     "pivot": [
+      420,
+      600
+     ],
+     "amp": 10,
+     "speed": 1.4,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "octopus_01",
+   "world": "sea",
+   "title": {
+    "ar": "الأخطبوط المرح",
+    "en": "Silly Octopus"
+   },
+   "svg": "assets/drawings/octopus_01.svg",
+   "bg": "#BDEBFF",
+   "sound": "bubble",
+   "difficulty": 1,
+   "palette": [
+    "#FFE0A3",
+    "#FF7043",
+    "#FFD23F",
+    "#A66CFF",
+    "#BA68C8",
+    "#E1BEE7",
+    "#FFFFFF",
+    "#F59AA8"
+   ],
+   "regions": [
+    {
+     "id": "sand",
+     "number": 1,
+     "target": "#FFE0A3",
+     "center": [
+      317,
+      941
+     ],
+     "area": 109267
+    },
+    {
+     "id": "coral",
+     "number": 2,
+     "target": "#FF7043",
+     "center": [
+      840,
+      726
+     ],
+     "area": 12579
+    },
+    {
+     "id": "starfish",
+     "number": 3,
+     "target": "#FFD23F",
+     "center": [
+      146,
+      908
+     ],
+     "area": 3842
+    },
+    {
+     "id": "arm_0",
+     "number": 4,
+     "target": "#A66CFF",
+     "center": [
+      166,
+      856
+     ],
+     "area": 19025
+    },
+    {
+     "id": "arm_1",
+     "number": 4,
+     "target": "#A66CFF",
+     "center": [
+      354,
+      681
+     ],
+     "area": 15701
+    },
+    {
+     "id": "arm_2",
+     "number": 4,
+     "target": "#A66CFF",
+     "center": [
+      409,
+      756
+     ],
+     "area": 14295
+    },
+    {
+     "id": "arm_3",
+     "number": 4,
+     "target": "#A66CFF",
+     "center": [
+      591,
+      756
+     ],
+     "area": 14295
+    },
+    {
+     "id": "arm_4",
+     "number": 4,
+     "target": "#A66CFF",
+     "center": [
+      646,
+      681
+     ],
+     "area": 15701
+    },
+    {
+     "id": "arm_5",
+     "number": 4,
+     "target": "#A66CFF",
+     "center": [
+      834,
+      856
+     ],
+     "area": 19025
+    },
+    {
+     "id": "head",
+     "number": 5,
+     "target": "#BA68C8",
+     "center": [
+      506,
+      345
+     ],
+     "area": 136053
+    },
+    {
+     "id": "spot_0",
+     "number": 6,
+     "target": "#E1BEE7",
+     "center": [
+      400,
+      290
+     ],
+     "area": 2826
+    },
+    {
+     "id": "spot_1",
+     "number": 6,
+     "target": "#E1BEE7",
+     "center": [
+      590,
+      270
+     ],
+     "area": 1520
+    },
+    {
+     "id": "spot_2",
+     "number": 6,
+     "target": "#E1BEE7",
+     "center": [
+      640,
+      360
+     ],
+     "area": 1017
+    },
+    {
+     "id": "eye_l",
+     "number": 7,
+     "target": "#FFFFFF",
+     "center": [
+      430,
+      470
+     ],
+     "area": 7512
+    },
+    {
+     "id": "eye_r",
+     "number": 7,
+     "target": "#FFFFFF",
+     "center": [
+      570,
+      470
+     ],
+     "area": 7512
+    },
+    {
+     "id": "cheek_l",
+     "number": 8,
+     "target": "#F59AA8",
+     "center": [
+      370,
+      550
+     ],
+     "area": 2462
+    },
+    {
+     "id": "cheek_r",
+     "number": 8,
+     "target": "#F59AA8",
+     "center": [
+      630,
+      550
+     ],
+     "area": 2462
+    },
+    {
+     "id": "bubble_a",
+     "number": 7,
+     "target": "#FFFFFF",
+     "center": [
+      760,
+      300
+     ],
+     "area": 3216
+    },
+    {
+     "id": "bubble_b",
+     "number": 7,
+     "target": "#FFFFFF",
+     "center": [
+      820,
+      200
+     ],
+     "area": 1520
+    }
+   ],
+   "anim": {
+    "arm_0": {
+     "type": "swing",
+     "pivot": [
+      300,
+      600
+     ],
+     "amp": -7,
+     "speed": 1.3,
+     "phase": 0.0,
+     "follow": "head"
+    },
+    "arm_1": {
+     "type": "swing",
+     "pivot": [
+      380,
+      600
+     ],
+     "amp": 7,
+     "speed": 1.3,
+     "phase": 0.5,
+     "follow": "head"
+    },
+    "arm_2": {
+     "type": "swing",
+     "pivot": [
+      460,
+      600
+     ],
+     "amp": -7,
+     "speed": 1.3,
+     "phase": 1.0,
+     "follow": "head"
+    },
+    "arm_3": {
+     "type": "swing",
+     "pivot": [
+      540,
+      600
+     ],
+     "amp": 7,
+     "speed": 1.3,
+     "phase": 1.5,
+     "follow": "head"
+    },
+    "arm_4": {
+     "type": "swing",
+     "pivot": [
+      620,
+      600
+     ],
+     "amp": -7,
+     "speed": 1.3,
+     "phase": 2.0,
+     "follow": "head"
+    },
+    "arm_5": {
+     "type": "swing",
+     "pivot": [
+      700,
+      600
+     ],
+     "amp": 7,
+     "speed": 1.3,
+     "phase": 2.5,
+     "follow": "head"
+    },
+    "head": {
+     "type": "float",
+     "pivot": null,
+     "amp": 12,
+     "speed": 0.7,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      500,
+      470
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0,
+     "follow": "head"
+    },
+    "bubbles": {
+     "type": "rise",
+     "pivot": null,
+     "amp": 40,
+     "speed": 0.6,
+     "phase": 0.0
+    },
+    "weed": {
+     "type": "sway",
+     "pivot": null,
+     "amp": 4,
+     "speed": 0.7,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "rocket_01",
+   "world": "space",
+   "title": {
+    "ar": "الصاروخ الشجاع",
+    "en": "Brave Rocket"
+   },
+   "svg": "assets/drawings/rocket_01.svg",
+   "bg": "#2B2D6E",
+   "sound": "launch",
+   "difficulty": 1,
+   "palette": [
+    "#FF8FB1",
+    "#F06292",
+    "#FFD23F",
+    "#FF7043",
+    "#E53935",
+    "#ECEFF1",
+    "#4FC3F7",
+    "#78909C"
+   ],
+   "regions": [
+    {
+     "id": "planet",
+     "number": 1,
+     "target": "#FF8FB1",
+     "center": [
+      191,
+      846
+     ],
+     "area": 42759
+    },
+    {
+     "id": "crater",
+     "number": 2,
+     "target": "#F06292",
+     "center": [
+      110,
+      790
+     ],
+     "area": 2462
+    },
+    {
+     "id": "star_0",
+     "number": 3,
+     "target": "#FFD23F",
+     "center": [
+      150,
+      150
+     ],
+     "area": 1548
+    },
+    {
+     "id": "star_1",
+     "number": 3,
+     "target": "#FFD23F",
+     "center": [
+      850,
+      221
+     ],
+     "area": 1024
+    },
+    {
+     "id": "star_2",
+     "number": 3,
+     "target": "#FFD23F",
+     "center": [
+      800,
+      700
+     ],
+     "area": 1746
+    },
+    {
+     "id": "star_3",
+     "number": 3,
+     "target": "#FFD23F",
+     "center": [
+      220,
+      470
+     ],
+     "area": 1548
+    },
+    {
+     "id": "flame_out",
+     "number": 4,
+     "target": "#FF7043",
+     "center": [
+      501,
+      952
+     ],
+     "area": 12402
+    },
+    {
+     "id": "flame_in",
+     "number": 3,
+     "target": "#FFD23F",
+     "center": [
+      499,
+      878
+     ],
+     "area": 6273
+    },
+    {
+     "id": "fin_l",
+     "number": 5,
+     "target": "#E53935",
+     "center": [
+      356,
+      745
+     ],
+     "area": 7274
+    },
+    {
+     "id": "fin_r",
+     "number": 5,
+     "target": "#E53935",
+     "center": [
+      644,
+      745
+     ],
+     "area": 7274
+    },
+    {
+     "id": "body",
+     "number": 6,
+     "target": "#ECEFF1",
+     "center": [
+      432,
+      584
+     ],
+     "area": 80222
+    },
+    {
+     "id": "nose",
+     "number": 5,
+     "target": "#E53935",
+     "center": [
+      500,
+      270
+     ],
+     "area": 17686
+    },
+    {
+     "id": "window",
+     "number": 7,
+     "target": "#4FC3F7",
+     "center": [
+      500,
+      470
+     ],
+     "area": 19106
+    },
+    {
+     "id": "band",
+     "number": 3,
+     "target": "#FFD23F",
+     "center": [
+      500,
+      664
+     ],
+     "area": 10557
+    },
+    {
+     "id": "nozzle",
+     "number": 8,
+     "target": "#78909C",
+     "center": [
+      500,
+      815
+     ],
+     "area": 5832
+    }
+   ],
+   "anim": {
+    "rocket": {
+     "type": "shake",
+     "pivot": null,
+     "amp": 4,
+     "speed": 6.0,
+     "phase": 0.0
+    },
+    "flame": {
+     "type": "flicker",
+     "pivot": [
+      500,
+      820
+     ],
+     "amp": 0.15,
+     "speed": 8.0,
+     "phase": 0.0
+    },
+    "stars": {
+     "type": "twinkle",
+     "pivot": null,
+     "amp": 0.2,
+     "speed": 1.4,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "planet_01",
+   "world": "space",
+   "title": {
+    "ar": "الكوكب ذو الحلقات",
+    "en": "Ringed Planet"
+   },
+   "svg": "assets/drawings/planet_01.svg",
+   "bg": "#3B2A7A",
+   "sound": "twinkle",
+   "difficulty": 1,
+   "palette": [
+    "#FFF3B0",
+    "#BDBDBD",
+    "#9E9E9E",
+    "#FFD23F",
+    "#FF9F1C",
+    "#FF7043",
+    "#F59AA8"
+   ],
+   "regions": [
+    {
+     "id": "star_0",
+     "number": 1,
+     "target": "#FFF3B0",
+     "center": [
+      140,
+      160
+     ],
+     "area": 1746
+    },
+    {
+     "id": "star_1",
+     "number": 1,
+     "target": "#FFF3B0",
+     "center": [
+      860,
+      140
+     ],
+     "area": 1746
+    },
+    {
+     "id": "star_2",
+     "number": 1,
+     "target": "#FFF3B0",
+     "center": [
+      820,
+      860
+     ],
+     "area": 1955
+    },
+    {
+     "id": "star_3",
+     "number": 1,
+     "target": "#FFF3B0",
+     "center": [
+      130,
+      820
+     ],
+     "area": 1746
+    },
+    {
+     "id": "moon",
+     "number": 2,
+     "target": "#BDBDBD",
+     "center": [
+      853,
+      266
+     ],
+     "area": 9496
+    },
+    {
+     "id": "moon_crater",
+     "number": 3,
+     "target": "#9E9E9E",
+     "center": [
+      810,
+      232
+     ],
+     "area": 1809
+    },
+    {
+     "id": "ring_back",
+     "number": 4,
+     "target": "#FFD23F",
+     "center": [
+      786,
+      422
+     ],
+     "area": 18431
+    },
+    {
+     "id": "planet",
+     "number": 5,
+     "target": "#FF9F1C",
+     "center": [
+      440,
+      365
+     ],
+     "area": 112661
+    },
+    {
+     "id": "band_1",
+     "number": 6,
+     "target": "#FF7043",
+     "center": [
+      474,
+      455
+     ],
+     "area": 22006
+    },
+    {
+     "id": "band_2",
+     "number": 4,
+     "target": "#FFD23F",
+     "center": [
+      488,
+      572
+     ],
+     "area": 7653
+    },
+    {
+     "id": "ring_front",
+     "number": 4,
+     "target": "#FFD23F",
+     "center": [
+      174,
+      618
+     ],
+     "area": 37989
+    },
+    {
+     "id": "cheek_l",
+     "number": 7,
+     "target": "#F59AA8",
+     "center": [
+      390,
+      540
+     ],
+     "area": 2123
+    },
+    {
+     "id": "cheek_r",
+     "number": 7,
+     "target": "#F59AA8",
+     "center": [
+      570,
+      540
+     ],
+     "area": 2123
+    }
+   ],
+   "anim": {
+    "planet": {
+     "type": "float",
+     "pivot": null,
+     "amp": 10,
+     "speed": 0.6,
+     "phase": 0.0
+    },
+    "stars": {
+     "type": "twinkle",
+     "pivot": null,
+     "amp": 0.2,
+     "speed": 1.4,
+     "phase": 0.0
+    },
+    "moon": {
+     "type": "orbit",
+     "pivot": [
+      480,
+      520
+     ],
+     "amp": 6,
+     "speed": 0.4,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      480,
+      490
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "astronaut_01",
+   "world": "space",
+   "title": {
+    "ar": "رائد الفضاء",
+    "en": "Little Astronaut"
+   },
+   "svg": "assets/drawings/astronaut_01.svg",
+   "bg": "#24305E",
+   "sound": "beep",
+   "difficulty": 1,
+   "palette": [
+    "#FFD23F",
+    "#9E9E9E",
+    "#FFFFFF",
+    "#5E35B1",
+    "#4FC3F7",
+    "#E53935",
+    "#B3E5FC",
+    "#F59AA8"
+   ],
+   "regions": [
+    {
+     "id": "star_0",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      130,
+      151
+     ],
+     "area": 1187
+    },
+    {
+     "id": "star_1",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      870,
+      170
+     ],
+     "area": 1746
+    },
+    {
+     "id": "star_2",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      880,
+      800
+     ],
+     "area": 1746
+    },
+    {
+     "id": "star_3",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      120,
+      761
+     ],
+     "area": 1187
+    },
+    {
+     "id": "pack",
+     "number": 2,
+     "target": "#9E9E9E",
+     "center": [
+      327,
+      736
+     ],
+     "area": 23276
+    },
+    {
+     "id": "leg_l",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      407,
+      823
+     ],
+     "area": 5500
+    },
+    {
+     "id": "leg_r",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      593,
+      823
+     ],
+     "area": 5500
+    },
+    {
+     "id": "boot_l",
+     "number": 4,
+     "target": "#5E35B1",
+     "center": [
+      425,
+      885
+     ],
+     "area": 8220
+    },
+    {
+     "id": "boot_r",
+     "number": 4,
+     "target": "#5E35B1",
+     "center": [
+      575,
+      885
+     ],
+     "area": 8220
+    },
+    {
+     "id": "arm_l",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      289,
+      594
+     ],
+     "area": 12964
+    },
+    {
+     "id": "glove_l",
+     "number": 4,
+     "target": "#5E35B1",
+     "center": [
+      225,
+      470
+     ],
+     "area": 7235
+    },
+    {
+     "id": "arm_r",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      706,
+      606
+     ],
+     "area": 10448
+    },
+    {
+     "id": "glove_r",
+     "number": 4,
+     "target": "#5E35B1",
+     "center": [
+      790,
+      650
+     ],
+     "area": 7235
+    },
+    {
+     "id": "suit",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      433,
+      739
+     ],
+     "area": 65333
+    },
+    {
+     "id": "panel",
+     "number": 5,
+     "target": "#4FC3F7",
+     "center": [
+      499,
+      603
+     ],
+     "area": 11621
+    },
+    {
+     "id": "button_a",
+     "number": 6,
+     "target": "#E53935",
+     "center": [
+      470,
+      630
+     ],
+     "area": 1017
+    },
+    {
+     "id": "button_b",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      530,
+      630
+     ],
+     "area": 1017
+    },
+    {
+     "id": "helmet",
+     "number": 3,
+     "target": "#FFFFFF",
+     "center": [
+      511,
+      175
+     ],
+     "area": 70963
+    },
+    {
+     "id": "visor",
+     "number": 7,
+     "target": "#B3E5FC",
+     "center": [
+      499,
+      305
+     ],
+     "area": 51024
+    },
+    {
+     "id": "antenna",
+     "number": 6,
+     "target": "#E53935",
+     "center": [
+      500,
+      105
+     ],
+     "area": 2123
+    },
+    {
+     "id": "cheek_l",
+     "number": 8,
+     "target": "#F59AA8",
+     "center": [
+      420,
+      380
+     ],
+     "area": 1809
+    },
+    {
+     "id": "cheek_r",
+     "number": 8,
+     "target": "#F59AA8",
+     "center": [
+      580,
+      380
+     ],
+     "area": 1809
+    }
+   ],
+   "anim": {
+    "astro": {
+     "type": "float",
+     "pivot": null,
+     "amp": 14,
+     "speed": 0.6,
+     "phase": 0.0
+    },
+    "head": {
+     "type": "float",
+     "pivot": null,
+     "amp": 14,
+     "speed": 0.6,
+     "phase": 0.0
+    },
+    "arm_l": {
+     "type": "wave",
+     "pivot": [
+      350,
+      560
+     ],
+     "amp": 14,
+     "speed": 1.6,
+     "phase": 0.0
+    },
+    "stars": {
+     "type": "twinkle",
+     "pivot": null,
+     "amp": 0.2,
+     "speed": 1.4,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      500,
+      320
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "flower_01",
+   "world": "nature",
+   "title": {
+    "ar": "الوردة الجميلة",
+    "en": "Pretty Flower"
+   },
+   "svg": "assets/drawings/flower_01.svg",
+   "bg": "#E8F8E0",
+   "sound": "chime",
+   "difficulty": 1,
+   "palette": [
+    "#FFD23F",
+    "#7BC86C",
+    "#FF7043",
+    "#FF9F1C",
+    "#43A047",
+    "#FF8FB1",
+    "#F06292",
+    "#FFFFFF"
+   ],
+   "regions": [
+    {
+     "id": "sun",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      860,
+      140
+     ],
+     "area": 11305
+    },
+    {
+     "id": "ground",
+     "number": 2,
+     "target": "#7BC86C",
+     "center": [
+      200,
+      930
+     ],
+     "area": 107802
+    },
+    {
+     "id": "pot",
+     "number": 3,
+     "target": "#FF7043",
+     "center": [
+      500,
+      875
+     ],
+     "area": 47889
+    },
+    {
+     "id": "pot_rim",
+     "number": 4,
+     "target": "#FF9F1C",
+     "center": [
+      571,
+      754
+     ],
+     "area": 25318
+    },
+    {
+     "id": "stem",
+     "number": 5,
+     "target": "#43A047",
+     "center": [
+      500,
+      670
+     ],
+     "area": 5718
+    },
+    {
+     "id": "leaf_l",
+     "number": 2,
+     "target": "#7BC86C",
+     "center": [
+      420,
+      620
+     ],
+     "area": 10740
+    },
+    {
+     "id": "leaf_r",
+     "number": 2,
+     "target": "#7BC86C",
+     "center": [
+      576,
+      578
+     ],
+     "area": 9988
+    },
+    {
+     "id": "petal_0",
+     "number": 6,
+     "target": "#FF8FB1",
+     "center": [
+      503,
+      187
+     ],
+     "area": 12436
+    },
+    {
+     "id": "petal_1",
+     "number": 7,
+     "target": "#F06292",
+     "center": [
+      635,
+      267
+     ],
+     "area": 14194
+    },
+    {
+     "id": "petal_2",
+     "number": 6,
+     "target": "#FF8FB1",
+     "center": [
+      634,
+      414
+     ],
+     "area": 14194
+    },
+    {
+     "id": "petal_3",
+     "number": 7,
+     "target": "#F06292",
+     "center": [
+      498,
+      494
+     ],
+     "area": 14194
+    },
+    {
+     "id": "petal_4",
+     "number": 6,
+     "target": "#FF8FB1",
+     "center": [
+      365,
+      413
+     ],
+     "area": 14194
+    },
+    {
+     "id": "petal_5",
+     "number": 7,
+     "target": "#F06292",
+     "center": [
+      367,
+      263
+     ],
+     "area": 15952
+    },
+    {
+     "id": "center",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      501,
+      305
+     ],
+     "area": 28891
+    },
+    {
+     "id": "cheek_l",
+     "number": 4,
+     "target": "#FF9F1C",
+     "center": [
+      445,
+      370
+     ],
+     "area": 1256
+    },
+    {
+     "id": "cheek_r",
+     "number": 4,
+     "target": "#FF9F1C",
+     "center": [
+      555,
+      370
+     ],
+     "area": 1256
+    },
+    {
+     "id": "bee_body",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      189,
+      384
+     ],
+     "area": 6411
+    },
+    {
+     "id": "bee_wing",
+     "number": 8,
+     "target": "#FFFFFF",
+     "center": [
+      173,
+      329
+     ],
+     "area": 3258
+    }
+   ],
+   "anim": {
+    "sun": {
+     "type": "spin",
+     "pivot": [
+      860,
+      140
+     ],
+     "amp": 1,
+     "speed": 0.15,
+     "phase": 0.0
+    },
+    "bloom": {
+     "type": "sway_top",
+     "pivot": [
+      500,
+      720
+     ],
+     "amp": 5,
+     "speed": 0.8,
+     "phase": 0.0
+    },
+    "flower": {
+     "type": "sway_top",
+     "pivot": [
+      500,
+      720
+     ],
+     "amp": 3,
+     "speed": 0.8,
+     "phase": 0.0
+    },
+    "bee": {
+     "type": "buzz",
+     "pivot": null,
+     "amp": 22,
+     "speed": 1.2,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "butterfly_01",
+   "world": "nature",
+   "title": {
+    "ar": "الفراشة الطائرة",
+    "en": "Fluttering Butterfly"
+   },
+   "svg": "assets/drawings/butterfly_01.svg",
+   "bg": "#FFF6D6",
+   "sound": "chime",
+   "difficulty": 1,
+   "palette": [
+    "#FF8FB1",
+    "#FFD23F",
+    "#A66CFF",
+    "#4FC3F7",
+    "#FFFFFF",
+    "#8D6E63"
+   ],
+   "regions": [
+    {
+     "id": "flower_a",
+     "number": 1,
+     "target": "#FF8FB1",
+     "center": [
+      202,
+      850
+     ],
+     "area": 11907
+    },
+    {
+     "id": "flower_a_c",
+     "number": 2,
+     "target": "#FFD23F",
+     "center": [
+      150,
+      850
+     ],
+     "area": 2826
+    },
+    {
+     "id": "flower_b",
+     "number": 3,
+     "target": "#A66CFF",
+     "center": [
+      906,
+      881
+     ],
+     "area": 9556
+    },
+    {
+     "id": "flower_b_c",
+     "number": 2,
+     "target": "#FFD23F",
+     "center": [
+      860,
+      880
+     ],
+     "area": 2123
+    },
+    {
+     "id": "wing_top_l",
+     "number": 4,
+     "target": "#4FC3F7",
+     "center": [
+      363,
+      335
+     ],
+     "area": 81672
+    },
+    {
+     "id": "wing_bot_l",
+     "number": 3,
+     "target": "#A66CFF",
+     "center": [
+      397,
+      610
+     ],
+     "area": 43745
+    },
+    {
+     "id": "spot_top_l",
+     "number": 2,
+     "target": "#FFD23F",
+     "center": [
+      250,
+      370
+     ],
+     "area": 7851
+    },
+    {
+     "id": "spot_bot_l",
+     "number": 1,
+     "target": "#FF8FB1",
+     "center": [
+      310,
+      660
+     ],
+     "area": 4535
+    },
+    {
+     "id": "dot_l",
+     "number": 5,
+     "target": "#FFFFFF",
+     "center": [
+      360,
+      430
+     ],
+     "area": 2123
+    },
+    {
+     "id": "wing_top_r",
+     "number": 4,
+     "target": "#4FC3F7",
+     "center": [
+      637,
+      335
+     ],
+     "area": 81672
+    },
+    {
+     "id": "wing_bot_r",
+     "number": 3,
+     "target": "#A66CFF",
+     "center": [
+      603,
+      610
+     ],
+     "area": 43745
+    },
+    {
+     "id": "spot_top_r",
+     "number": 2,
+     "target": "#FFD23F",
+     "center": [
+      750,
+      370
+     ],
+     "area": 7851
+    },
+    {
+     "id": "spot_bot_r",
+     "number": 1,
+     "target": "#FF8FB1",
+     "center": [
+      690,
+      660
+     ],
+     "area": 4535
+    },
+    {
+     "id": "dot_r",
+     "number": 5,
+     "target": "#FFFFFF",
+     "center": [
+      640,
+      430
+     ],
+     "area": 2123
+    },
+    {
+     "id": "body",
+     "number": 6,
+     "target": "#8D6E63",
+     "center": [
+      500,
+      583
+     ],
+     "area": 23122
+    },
+    {
+     "id": "head",
+     "number": 6,
+     "target": "#8D6E63",
+     "center": [
+      500,
+      360
+     ],
+     "area": 12071
+    }
+   ],
+   "anim": {
+    "wing_l": {
+     "type": "flap_x",
+     "pivot": [
+      500,
+      520
+     ],
+     "amp": 0.3,
+     "speed": 2.4,
+     "phase": 0,
+     "follow": "butterfly"
+    },
+    "wing_r": {
+     "type": "flap_x",
+     "pivot": [
+      500,
+      520
+     ],
+     "amp": 0.3,
+     "speed": 2.4,
+     "phase": 0,
+     "follow": "butterfly"
+    },
+    "butterfly": {
+     "type": "float",
+     "pivot": null,
+     "amp": 16,
+     "speed": 0.9,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "tree_01",
+   "world": "nature",
+   "title": {
+    "ar": "الشجرة المثمرة",
+    "en": "Apple Tree"
+   },
+   "svg": "assets/drawings/tree_01.svg",
+   "bg": "#DDF5FF",
+   "sound": "chime",
+   "difficulty": 1,
+   "palette": [
+    "#FFD23F",
+    "#FFFFFF",
+    "#7BC86C",
+    "#8D6E63",
+    "#5D4037",
+    "#43A047",
+    "#E53935"
+   ],
+   "regions": [
+    {
+     "id": "sun",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      150,
+      140
+     ],
+     "area": 12071
+    },
+    {
+     "id": "cloud",
+     "number": 2,
+     "target": "#FFFFFF",
+     "center": [
+      820,
+      155
+     ],
+     "area": 14224
+    },
+    {
+     "id": "ground",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      342,
+      927
+     ],
+     "area": 116265
+    },
+    {
+     "id": "trunk",
+     "number": 4,
+     "target": "#8D6E63",
+     "center": [
+      501,
+      823
+     ],
+     "area": 25928
+    },
+    {
+     "id": "hole",
+     "number": 5,
+     "target": "#5D4037",
+     "center": [
+      500,
+      700
+     ],
+     "area": 2776
+    },
+    {
+     "id": "leaves",
+     "number": 6,
+     "target": "#43A047",
+     "center": [
+      405,
+      283
+     ],
+     "area": 176630
+    },
+    {
+     "id": "apple_0",
+     "number": 7,
+     "target": "#E53935",
+     "center": [
+      380,
+      420
+     ],
+     "area": 4070
+    },
+    {
+     "id": "apple_1",
+     "number": 7,
+     "target": "#E53935",
+     "center": [
+      560,
+      360
+     ],
+     "area": 4070
+    },
+    {
+     "id": "apple_2",
+     "number": 7,
+     "target": "#E53935",
+     "center": [
+      640,
+      520
+     ],
+     "area": 4070
+    },
+    {
+     "id": "apple_3",
+     "number": 7,
+     "target": "#E53935",
+     "center": [
+      440,
+      560
+     ],
+     "area": 4070
+    },
+    {
+     "id": "apple_4",
+     "number": 7,
+     "target": "#E53935",
+     "center": [
+      520,
+      470
+     ],
+     "area": 4070
+    },
+    {
+     "id": "apple_5",
+     "number": 7,
+     "target": "#E53935",
+     "center": [
+      300,
+      520
+     ],
+     "area": 4070
+    },
+    {
+     "id": "bush_l",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      150,
+      861
+     ],
+     "area": 23211
+    },
+    {
+     "id": "bush_r",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      821,
+      861
+     ],
+     "area": 19984
+    }
+   ],
+   "anim": {
+    "sun": {
+     "type": "spin",
+     "pivot": [
+      150,
+      140
+     ],
+     "amp": 1,
+     "speed": 0.15,
+     "phase": 0.0
+    },
+    "crown": {
+     "type": "sway_top",
+     "pivot": [
+      500,
+      880
+     ],
+     "amp": 2,
+     "speed": 0.6,
+     "phase": 0.0
+    },
+    "cloud": {
+     "type": "drift",
+     "pivot": null,
+     "amp": 20,
+     "speed": 0.3,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "house_01",
+   "world": "home",
+   "title": {
+    "ar": "بيتي الجميل",
+    "en": "My Sweet Home"
+   },
+   "svg": "assets/drawings/house_01.svg",
+   "bg": "#E0F4FF",
+   "sound": "ding",
+   "difficulty": 1,
+   "palette": [
+    "#FFD23F",
+    "#FFFFFF",
+    "#7BC86C",
+    "#8D6E63",
+    "#ECEFF1",
+    "#FFF3B0",
+    "#E53935",
+    "#B3E5FC",
+    "#FFE0A3",
+    "#FF8FB1"
+   ],
+   "regions": [
+    {
+     "id": "sun",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      150,
+      140
+     ],
+     "area": 11305
+    },
+    {
+     "id": "cloud",
+     "number": 2,
+     "target": "#FFFFFF",
+     "center": [
+      830,
+      145
+     ],
+     "area": 14224
+    },
+    {
+     "id": "ground",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      105,
+      935
+     ],
+     "area": 94352
+    },
+    {
+     "id": "chimney",
+     "number": 4,
+     "target": "#8D6E63",
+     "center": [
+      680,
+      272
+     ],
+     "area": 10127
+    },
+    {
+     "id": "smoke",
+     "number": 5,
+     "target": "#ECEFF1",
+     "center": [
+      700,
+      138
+     ],
+     "area": 3558
+    },
+    {
+     "id": "wall",
+     "number": 6,
+     "target": "#FFF3B0",
+     "center": [
+      316,
+      783
+     ],
+     "area": 167886
+    },
+    {
+     "id": "roof",
+     "number": 7,
+     "target": "#E53935",
+     "center": [
+      618,
+      395
+     ],
+     "area": 79647
+    },
+    {
+     "id": "attic",
+     "number": 8,
+     "target": "#B3E5FC",
+     "center": [
+      500,
+      360
+     ],
+     "area": 7235
+    },
+    {
+     "id": "door",
+     "number": 4,
+     "target": "#8D6E63",
+     "center": [
+      500,
+      765
+     ],
+     "area": 29105
+    },
+    {
+     "id": "window_l",
+     "number": 8,
+     "target": "#B3E5FC",
+     "center": [
+      335,
+      595
+     ],
+     "area": 11821
+    },
+    {
+     "id": "box_l",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      335,
+      668
+     ],
+     "area": 4512
+    },
+    {
+     "id": "window_r",
+     "number": 8,
+     "target": "#B3E5FC",
+     "center": [
+      675,
+      595
+     ],
+     "area": 11821
+    },
+    {
+     "id": "box_r",
+     "number": 3,
+     "target": "#7BC86C",
+     "center": [
+      675,
+      668
+     ],
+     "area": 4512
+    },
+    {
+     "id": "path",
+     "number": 9,
+     "target": "#FFE0A3",
+     "center": [
+      500,
+      940
+     ],
+     "area": 25200
+    },
+    {
+     "id": "flower_0",
+     "number": 10,
+     "target": "#FF8FB1",
+     "center": [
+      173,
+      830
+     ],
+     "area": 5177
+    },
+    {
+     "id": "flower_c_0",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      140,
+      830
+     ],
+     "area": 1017
+    },
+    {
+     "id": "flower_1",
+     "number": 10,
+     "target": "#FF8FB1",
+     "center": [
+      893,
+      830
+     ],
+     "area": 5177
+    },
+    {
+     "id": "flower_c_1",
+     "number": 1,
+     "target": "#FFD23F",
+     "center": [
+      860,
+      830
+     ],
+     "area": 1017
+    }
+   ],
+   "anim": {
+    "sun": {
+     "type": "spin",
+     "pivot": [
+      150,
+      140
+     ],
+     "amp": 1,
+     "speed": 0.15,
+     "phase": 0.0
+    },
+    "smoke": {
+     "type": "float",
+     "pivot": null,
+     "amp": 20,
+     "speed": 0.8,
+     "phase": 0.0
+    },
+    "house": {
+     "type": "breathe",
+     "pivot": [
+      500,
+      880
+     ],
+     "amp": 0.015,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "cloud": {
+     "type": "drift",
+     "pivot": null,
+     "amp": 20,
+     "speed": 0.3,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "teddy_01",
+   "world": "home",
+   "title": {
+    "ar": "الدب المحبوب",
+    "en": "Teddy Bear"
+   },
+   "svg": "assets/drawings/teddy_01.svg",
+   "bg": "#FFEFE0",
+   "sound": "squeak",
+   "difficulty": 1,
+   "palette": [
+    "#4FC3F7",
+    "#C68B59",
+    "#FFCC9A",
+    "#F06292",
+    "#E53935",
+    "#FF7043",
+    "#5D4037",
+    "#F59AA8"
+   ],
+   "regions": [
+    {
+     "id": "blanket",
+     "number": 1,
+     "target": "#4FC3F7",
+     "center": [
+      500,
+      920
+     ],
+     "area": 79603
+    },
+    {
+     "id": "ear_l",
+     "number": 2,
+     "target": "#C68B59",
+     "center": [
+      285,
+      186
+     ],
+     "area": 7201
+    },
+    {
+     "id": "ear_r",
+     "number": 2,
+     "target": "#C68B59",
+     "center": [
+      715,
+      186
+     ],
+     "area": 7201
+    },
+    {
+     "id": "in_ear_l",
+     "number": 3,
+     "target": "#FFCC9A",
+     "center": [
+      322,
+      206
+     ],
+     "area": 2784
+    },
+    {
+     "id": "in_ear_r",
+     "number": 3,
+     "target": "#FFCC9A",
+     "center": [
+      678,
+      206
+     ],
+     "area": 2784
+    },
+    {
+     "id": "arm_l",
+     "number": 2,
+     "target": "#C68B59",
+     "center": [
+      263,
+      642
+     ],
+     "area": 16470
+    },
+    {
+     "id": "arm_r",
+     "number": 2,
+     "target": "#C68B59",
+     "center": [
+      737,
+      642
+     ],
+     "area": 16470
+    },
+    {
+     "id": "leg_l",
+     "number": 2,
+     "target": "#C68B59",
+     "center": [
+      323,
+      792
+     ],
+     "area": 9436
+    },
+    {
+     "id": "leg_r",
+     "number": 2,
+     "target": "#C68B59",
+     "center": [
+      677,
+      792
+     ],
+     "area": 9436
+    },
+    {
+     "id": "pad_l",
+     "number": 3,
+     "target": "#FFCC9A",
+     "center": [
+      361,
+      841
+     ],
+     "area": 6159
+    },
+    {
+     "id": "pad_r",
+     "number": 3,
+     "target": "#FFCC9A",
+     "center": [
+      639,
+      841
+     ],
+     "area": 6159
+    },
+    {
+     "id": "body",
+     "number": 2,
+     "target": "#C68B59",
+     "center": [
+      615,
+      563
+     ],
+     "area": 70335
+    },
+    {
+     "id": "belly",
+     "number": 3,
+     "target": "#FFCC9A",
+     "center": [
+      458,
+      732
+     ],
+     "area": 37357
+    },
+    {
+     "id": "heart",
+     "number": 4,
+     "target": "#F06292",
+     "center": [
+      499,
+      663
+     ],
+     "area": 4096
+    },
+    {
+     "id": "bow_l",
+     "number": 5,
+     "target": "#E53935",
+     "center": [
+      429,
+      474
+     ],
+     "area": 3856
+    },
+    {
+     "id": "bow_r",
+     "number": 5,
+     "target": "#E53935",
+     "center": [
+      571,
+      474
+     ],
+     "area": 3856
+    },
+    {
+     "id": "bow_c",
+     "number": 6,
+     "target": "#FF7043",
+     "center": [
+      500,
+      472
+     ],
+     "area": 2411
+    },
+    {
+     "id": "head",
+     "number": 2,
+     "target": "#C68B59",
+     "center": [
+      513,
+      215
+     ],
+     "area": 81021
+    },
+    {
+     "id": "muzzle",
+     "number": 3,
+     "target": "#FFCC9A",
+     "center": [
+      521,
+      389
+     ],
+     "area": 13503
+    },
+    {
+     "id": "nose",
+     "number": 7,
+     "target": "#5D4037",
+     "center": [
+      500,
+      340
+     ],
+     "area": 2073
+    },
+    {
+     "id": "cheek_l",
+     "number": 8,
+     "target": "#F59AA8",
+     "center": [
+      390,
+      380
+     ],
+     "area": 2123
+    },
+    {
+     "id": "cheek_r",
+     "number": 8,
+     "target": "#F59AA8",
+     "center": [
+      610,
+      380
+     ],
+     "area": 2123
+    }
+   ],
+   "anim": {
+    "head": {
+     "type": "tilt",
+     "pivot": [
+      500,
+      470
+     ],
+     "amp": 6,
+     "speed": 0.8,
+     "phase": 0.0
+    },
+    "arm_r": {
+     "type": "wave",
+     "pivot": [
+      690,
+      520
+     ],
+     "amp": 16,
+     "speed": 1.5,
+     "phase": 0.0
+    },
+    "arm_l": {
+     "type": "wave",
+     "pivot": [
+      310,
+      520
+     ],
+     "amp": -6,
+     "speed": 1.0,
+     "phase": 0.0
+    },
+    "eyes": {
+     "type": "blink",
+     "pivot": [
+      500,
+      280
+     ],
+     "amp": 10,
+     "speed": 1.0,
+     "phase": 0.0
+    }
+   }
+  },
+  {
+   "id": "toys_01",
+   "world": "home",
+   "title": {
+    "ar": "ألعابي",
+    "en": "My Toys"
+   },
+   "svg": "assets/drawings/toys_01.svg",
+   "bg": "#F3E8FF",
+   "sound": "boing",
+   "difficulty": 1,
+   "palette": [
+    "#FFE0A3",
+    "#E53935",
+    "#1E88E5",
+    "#FFD23F",
+    "#FF9F1C",
+    "#FFFFFF",
+    "#7BC86C",
+    "#A66CFF",
+    "#FF8FB1"
+   ],
+   "regions": [
+    {
+     "id": "floor",
+     "number": 1,
+     "target": "#FFE0A3",
+     "center": [
+      500,
+      890
+     ],
+     "area": 216142
+    },
+    {
+     "id": "block_a",
+     "number": 2,
+     "target": "#E53935",
+     "center": [
+      185,
+      705
+     ],
+     "area": 28556
+    },
+    {
+     "id": "block_b",
+     "number": 3,
+     "target": "#1E88E5",
+     "center": [
+      355,
+      705
+     ],
+     "area": 28556
+    },
+    {
+     "id": "block_c",
+     "number": 4,
+     "target": "#FFD23F",
+     "center": [
+      270,
+      535
+     ],
+     "area": 28556
+    },
+    {
+     "id": "ball",
+     "number": 5,
+     "target": "#FF9F1C",
+     "center": [
+      674,
+      515
+     ],
+     "area": 52347
+    },
+    {
+     "id": "ball_s1",
+     "number": 6,
+     "target": "#FFFFFF",
+     "center": [
+      712,
+      590
+     ],
+     "area": 19964
+    },
+    {
+     "id": "ball_s2",
+     "number": 7,
+     "target": "#7BC86C",
+     "center": [
+      737,
+      689
+     ],
+     "area": 18444
+    },
+    {
+     "id": "kite",
+     "number": 8,
+     "target": "#A66CFF",
+     "center": [
+      470,
+      204
+     ],
+     "area": 22289
+    },
+    {
+     "id": "bow_a",
+     "number": 9,
+     "target": "#FF8FB1",
+     "center": [
+      500,
+      424
+     ],
+     "area": 1242
+    }
+   ],
+   "anim": {
+    "ball": {
+     "type": "bounce_big",
+     "pivot": null,
+     "amp": 60,
+     "speed": 1.6,
+     "phase": 0.0
+    },
+    "kite": {
+     "type": "sway",
+     "pivot": null,
+     "amp": 8,
+     "speed": 0.8,
+     "phase": 0.0
+    },
+    "blocks": {
+     "type": "breathe",
+     "pivot": [
+      270,
+      790
+     ],
+     "amp": 0.02,
+     "speed": 1.4,
+     "phase": 0.0
+    }
+   }
+  }
+ ]
+}
